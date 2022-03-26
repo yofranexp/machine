@@ -13,4 +13,8 @@ View(datos)
 ggplot(datos, aes(normal))+
   geom_histogram()+
   labs(x = "Valores", y = "Densidad",
+<<<<<<< HEAD
        title = "Histograma")
+=======
+                        title = "Histograma1")
+>>>>>>> ramap
