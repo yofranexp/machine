@@ -10,3 +10,5 @@ binomial <- rbinom(50,12, 0.06)
 datos <- as.data.frame(cbind(normal, binomial))
 View(datos)
 
+ggplot(datos, aes(normal))+
+  geom_histogram()
