@@ -11,4 +11,6 @@ datos <- as.data.frame(cbind(normal, binomial))
 View(datos)
 
 ggplot(datos, aes(normal))+
-  geom_histogram()
+  geom_histogram()+
+  labs(x = "Valores", y = "Densidad",
+                        title = "Histograma1")
